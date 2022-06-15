@@ -7,18 +7,40 @@
     <title>Document</title>
     <style>
     body {
-        background-color: #a9ff68;
+        background-color: #a9ff68; 
+    }
+    .Container {
+        background-color:aqua ;
+        padding: 1em;
+        margin-bottom: 1em;
+        margin: 0.5em;
+        width: 15em;
+    }
+    .Align {
+        background-color:cadetblue;
+        padding: 1em;
+        margin: 0.5em; 
+        width: 15em;
+    }
+    .Container:hover {
+        background-color:crimson;
+    }
+    .Align:hover {
+        background-color: crimson;
     }
     </style>
 </head>
 <body>
-    <h1>My personal webpage layout</h1>
-<div>
+    <h1>My personal webpage</h1>
+    
+    <div class="Align">
+        <a href="webpage-grid.html"> Simple grid webpage</a>
+    </div>
+
+<div class="Container">
     <a href="webpage.html"> Flexbox webpage</a>
 </div>
 
-<div>
-    <a href="webpage-grid.html"> Simple grid webpage</a>
-</div>
+
 </body>
 </html>

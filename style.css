@@ -7,6 +7,49 @@ h2 {
     padding: 1em;
     margin: 1em;
 }
+
+@media (min-width 980px) {
+ .Align {
+    display: flex;
+ }
+ .City {
+    display: flex;
+ }
+ .Place {display: flex;
+
+}
 .Container {
     display: flex;
     }
+}
+.Container {
+    display: flex;
+    vertical-align: middle;
+    }
+    
+.Align {
+    text-align: center;
+    vertical-align: middle;
+}
+.Align h1 {
+    display: inline-block;
+    vertical-align: middle;
+    margin-inline: 5em;
+}
+.Align img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5em;
+}
+.Place {
+    text-align: left;
+    vertical-align: middle;
+    margin: 8em;
+}
+.City {
+ display: inline-block;
+ vertical-align: middle;
+}
+.City img {
+    margin-right: 2em;
+}
