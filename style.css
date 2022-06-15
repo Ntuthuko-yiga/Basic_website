@@ -34,7 +34,7 @@ h2 {
 .Align h1 {
     display: inline-block;
     vertical-align: middle;
-    margin-inline: 5em;
+    margin-inline: 2em;
 }
 .Align img {
     display: inline-block;
@@ -52,4 +52,8 @@ h2 {
 }
 .City img {
     margin-right: 2em;
+}
+.Describe {
+    text-align: justify;
+    display: flex;
 }
