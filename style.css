@@ -1,24 +1,18 @@
 body {
-background-color: #b2a496;
+background-color: #c8b6ff;
 font-family:Arial, Helvetica, sans-serif
 }
 h2 {
-    background-color: #211f2f;
+    background-color: #e5989b;
     padding: 1em;
     margin: 1em;
 }
 
-@media (min-width 980px) {
+ @media (min-width 980px) {
  .Align {
     display: flex;
  }
- .City {
-    display: flex;
- }
- .Place {display: flex;
-
-}
-.Container {
+ ontainer {
     display: flex;
     }
     .Content {
@@ -51,7 +45,7 @@ h2 {
     margin-left: 5em;
 }
 .Place {
-    /* text-align: left; */
+   
     /* vertical-align: middle; */
     /* margin: 8em;
     display: inline-block; */
@@ -70,6 +64,7 @@ h2 {
 }
 .name {
     display: flex;
+  /* background-color: aqua; */
   
 }
 .name img {
@@ -79,7 +74,23 @@ h2 {
     /* float: left; */
 }
 .Content{
-    /* text-align: center;
-    vertical-align: middle; */
-    /* margin-bottom: 1em; */
+   /* background-color: aqua; */
+   display: flexbox;
+
+}
+.Ntuthuko {
+    margin: 0.5em;
+    padding: 1em;
+    display: flex;
+}
+.ntu{
+    float: right;
+    /* background-color: aqua; */
+}
+.dede{
+    margin: 0.5em;
+    padding: 1em;
+}
+.ntukza{
+    display: flex;
 }
