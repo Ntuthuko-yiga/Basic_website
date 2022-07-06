@@ -8,20 +8,13 @@ h2 {
     margin: 1em;
 }
 
- @media (min-width 980px) {
- .Align {
-    display: flex;
- }
- ontainer {
-    display: flex;
-    }
+ @media (min-width: 980px) {
     .Content {
         display: flex;
     }
-    .name {
+    .ntukza{
         display: flex;
-        align-content: right;
-    }
+    } 
 }
 .Container {
     display: flex;
@@ -90,7 +83,4 @@ h2 {
 .dede{
     margin: 0.5em;
     padding: 1em;
-}
-.ntukza{
-    display: flex;
 }
